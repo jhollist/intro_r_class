@@ -19,7 +19,7 @@ In this lesson we are going to go over the very basics of R, cover some basic te
 
 R is a functional programming language and as such, most everything you do uses a function.
 
-The basic syntax of function follows the form: `function_name(arg1, arg2, ...)`.  With the base install, you will gain access to many (3034 functions, to be exact).  Some examples:
+The basic syntax of function follows the form: `function_name(arg1, arg2, ...)`.  With the base install, you will gain access to many (3080 functions, to be exact).  Some examples:
 
 
 ```r
@@ -46,21 +46,15 @@ rnorm(100, mean = 10, sd = 2)
 ```
 
 ```
-##   [1]  7.984837  9.662246  8.548069 12.846114  8.471922 10.543114 10.666517
-##   [8] 10.952335  9.722487 13.377832 10.932028 12.276489 15.323929 10.726303
-##  [15] 10.556552  9.585695 12.065732  8.097869 10.549750  9.965589  7.948236
-##  [22] 11.698192 11.095679 11.047743 13.391152 11.256898 11.449961  8.868757
-##  [29] 10.107853 11.265520  5.116543  8.533005  9.172841 10.479853  4.883735
-##  [36]  9.238202  5.973205 11.075636 10.908058  4.405295  7.398416 11.218449
-##  [43] 10.973392 10.881485 12.519882  8.015779  8.598504  7.448599  9.384838
-##  [50] 12.032296  9.416971 10.593296  6.175169  9.888070  9.259158  4.702173
-##  [57]  8.828359  7.200228 11.579544 10.081442 11.802479  8.761988  8.514316
-##  [64]  6.367517 10.996422 12.190250  9.743874  7.709479 11.007555 13.152544
-##  [71] 11.332731 11.263587 12.105846  9.691538 10.968855 10.354793 13.031089
-##  [78] 10.881075 11.533709 13.391848  7.834136 10.504535  8.737933  8.160290
-##  [85]  8.703046 11.521698  8.583809 10.117008  8.024406  8.386036  9.600785
-##  [92] 10.086182 12.098201  9.782963  7.657290 12.392768  5.898889  9.641216
-##  [99] 12.921931 10.257947
+##   [1]  7.826904  8.382623  7.628266 10.347103 13.256844  7.943796 10.990458 11.835512  7.669733 11.636916  7.346507 11.414479
+##  [13]  9.845981 10.775747 11.205158 12.049133 11.806138 10.367183  7.526828  8.889273  8.125893 10.036659 11.403571  8.575943
+##  [25]  7.875487  7.010826 10.300778  7.977178 12.181637  9.000395  8.704149 11.640863 10.386844 11.050837  5.816888 12.342250
+##  [37]  7.866062  8.391336  8.526680 11.491824  8.867600 12.173936 13.175676  9.466561 10.006563 12.440261 13.266908 13.585720
+##  [49]  9.477464 10.634581 10.307192 11.297092 11.523908  7.926430  9.357074 12.797065 12.654072  8.229398  9.901920 11.416209
+##  [61] 10.343473  8.990124  5.784521 10.225859 13.790341 11.090386 11.191066 11.721133 10.288193  8.578869 13.380904 10.471118
+##  [73] 11.404154  7.781830  9.594834 10.490340 11.435273 11.005671 10.122693 10.435312  8.257564 10.522357 10.468941  9.761112
+##  [85]  9.668763  9.641451  9.277019 13.429341  8.848612 12.352551 10.873547 10.069004  6.472072  9.484267 11.223508 12.245533
+##  [97]  9.035250 12.390202 15.858382 11.080247
 ```
 
 ```r
@@ -69,7 +63,7 @@ mean(rnorm(100))
 ```
 
 ```
-## [1] -0.03495178
+## [1] -0.03345302
 ```
 
 ```r
@@ -78,7 +72,7 @@ sum(rnorm(100))
 ```
 
 ```
-## [1] 4.585261
+## [1] 5.604576
 ```
 
 ### A few side notes 
@@ -100,7 +94,7 @@ The base install of R is quite powerful, but you will soon have a need or desire
 
 ### CRAN
 
-One of the reasons for R's popularity is CRAN, [The Comprehensive R Archive Network](http://cran.r-project.org/).  This is where you download R and also where most will gain access to packages (there are other places, but that is for later).  Not much else to say about this now other than to be aware of it.  As of 2019-08-08, there are 14717 packages on CRAN! 
+One of the reasons for R's popularity is CRAN, [The Comprehensive R Archive Network](http://cran.r-project.org/).  This is where you download R and also where most will gain access to packages (there are other places, but that is for later).  Not much else to say about this now other than to be aware of it.  As of 2020-03-24, there are 15441 packages on CRAN! 
 
 ### Installing packages
 
@@ -147,7 +141,7 @@ dplyr::mutate
 ## {
 ##     UseMethod("mutate")
 ## }
-## <bytecode: 0x0000015c59c6c5a0>
+## <bytecode: 0x000001d13f45e8d8>
 ## <environment: namespace:dplyr>
 ```
 
@@ -390,13 +384,15 @@ As I mention earlier, there are TOO many resources to mention and everyone has t
 - [RStudio Cheatsheets](http://www.rstudio.com/resources/cheatsheets/): Additional cheat sheets from RStudio.  I am especially fond of the data wrangling one.
 
 
-## Exercise 2.1
+## Homework 2.1
 
-We should still have our `nla_analysis.R` file open.  We will be working with this as we go through the rest of the excercises.
+Start up the class project that we created last class and Open up the `nla_analysis.R` file.  
 
-Take a look at this file and with the person sitting next to you find the following:
+Take a look at this file and find the following:
 
-1. Find the `read_csv()` function.  What lines is it on?  What is the argument?
-2. Now find the lines on which you think we install packages and load libraries.  There is the fancy way (lines 19-24) and a straight up way (lines 29-32).  Talk through in your own words what each of these is doing
-3. Add a line of code after line 24 to install the package `lubridate`.  Add a line after line 33 to load `lubridate`.
+1. Find the `read_csv()` function.  What lines is it on?  What is the name of the argument in this function and what is the value that we have assigned to that argument?
+2. Now find the lines on which you think we install packages and load up our packages for your use.  The installation is fancier than it needs to be, but loading the packages is pretty standard.  In your own words, what do you think each of these lines is telling R to do.
+3. Add a line of code after line 24 (or so) to install the package `lubridate`.  Add a line after line 33 (or so) to load `lubridate`.
 5. Bring up the package level help for the `lubridate` package.  What does this package do?
+
+Be prepared to answer these questions when we meet next time.  If you run into problems, I am available via Skype to help out.
