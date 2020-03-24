@@ -12,7 +12,7 @@ The materials will cover:
 - Basic Data Manipulation
 - Basic Data Visualization.
 
-# Workshop Schedule and Links to Materials
+# Class Schedule and Links to Materials
 
 |Class                      |Topic                                             | 
 |---------------------------|--------------------------------------------------| 
@@ -20,7 +20,7 @@ The materials will cover:
 |                           |Welcome                                           |
 |                           |[RStudio and The Punchline](lessons/01_rstudio.md)|
 |Class 2:                   |                                                  |
-|                           |[R Basics: Part 1](lessons/02_r_basics.md)        |
+|                           |[R Basics: Functions, Syntax, and Packages](lessons/02_r_basics.md)|
 |Class 3:                   |                                                  |
 |                           |[R Basics: Getting Help](lessons/02_r_basics.md#getting-help)|
 |                           |[Tidy Data: Part 1](lessons/03_tidy_data_in_r_1.md)|
