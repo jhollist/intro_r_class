@@ -22,9 +22,10 @@ The materials will cover:
 |Class 2:                   |                                                  |
 |                           |[R Basics: Part 1](lessons/02_r_basics.md)        |
 |Class 3:                   |                                                  |
-|                           |[R Basics: Part 2](lessons/02_r_basics.md)        |
+|                           |[R Basics: Getting Help](lessons/02_r_basics.md#getting-help)|
+|                           |[Tidy Data: Part 1](lessons/03_tidy_data_in_r_1.md)|
 |Class 4:                   |                                                  |
-|                           |[Tidy Data: Part 1](lessons/03_tidy_data_in_r.md) |
+|                           |[Tidy Data: Part 2](lessons/03_tidy_data_in_r_2.md)|
 |Class 5:                   |                                                  |
 |                           |[Tidy Data: Part 2](lessons/03_tidy_data_in_r.md) |
 |Class 6:                   |                                                  |
