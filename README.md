@@ -25,6 +25,7 @@ The materials will cover:
 |                           |[R Basics: Getting Help](lessons/02_r_basics.md#getting-help)|
 |                           |[Tidy Data: Part 1](lessons/03_tidy_data_in_r_1.md)|
 |Class 4:                   |                                                  |
+|                           |[Finish Up Tidy Data: Part 1](lessons/03_tidy_data_in_r_1.md)|
 |                           |[Tidy Data: Part 2](lessons/03_tidy_data_in_r_2.md)|
 |Class 5:                   |                                                  |
 |                           |[Tidy Data: Part 2](lessons/03_tidy_data_in_r.md) |
