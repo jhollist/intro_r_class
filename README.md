@@ -28,7 +28,7 @@ The materials will cover:
 |                           |[Finish Up Tidy Data: Part 1](lessons/03_tidy_data_in_r_1.md)|
 |                           |[Tidy Data: Part 2](lessons/03_tidy_data_in_r_2.md)|
 |Class 5:                   |                                                  |
-|                           |[Tidy Data: Part 2](lessons/03_tidy_data_in_r.md) |
+|                           |[Finish up Tidy Data: Part 2](lessons/03_tidy_data_in_r_2.md#filter) |
 |Class 6:                   |                                                  |
 |                           |[Data Viz: Part 1](lessons/04_data_viz_with_ggplot2.md)|
 |Class 7:                   |                                                  |
